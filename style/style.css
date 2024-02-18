@@ -1,0 +1,333 @@
+.header{
+    grid-area: header;
+    background-size: 400px;
+    margin-top:2%;
+    position: relative;
+    padding: 5px;
+}
+input#date[type=text] {
+  display: inline-block;
+  width: 150px;
+  float: right;
+  margin-top: -5%;
+  margin-right: 0.5%;
+}
+.button-container {
+  position: absolute;
+  top: 1%;
+  right: 0;
+  margin-left: 10px;
+}
+.heading {
+    font-family:Wide Latin;
+    font-size: 50px;
+    position:absolute;
+    top: 2%; left:50%; 
+    transform: translate(-50%,0%);
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;
+}
+.active{
+color: #40d5d5;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-size: 200px;
+    background-color: #B9C7BE;
+    margin:0.1em;
+    margin-left: 5px;
+    margin-top: 18px;
+    margin-bottom: -10px;
+    position: relative;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.fa{
+    padding:15px;
+    width: 1px;
+    text-align: left;
+    text-decoration: none;
+    margin: -15px 2px;
+    border-radius: 0%;
+    left: 20PX;
+    top:-20PX;   
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    width: 3%; 
+    height: 20%;
+    margin-right:0%; 
+    margin-bottom: 2%; 
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+    width: 3%; 
+    height: 20%; 
+    margin-right:0%; 
+    margin-bottom: 2%; 
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+    width: 3%; 
+    height: 20%; 
+    margin-right:0%;
+    margin-bottom: 2%; 
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+    width: 3%; 
+    height: 20%; 
+    margin-right:0%; 
+    margin-bottom: 2%; 
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+.fa-instagram{
+    background: #123688;
+    color: white;
+    width: 3%; 
+    height: 20%; 
+    margin-right:0%;
+    margin-bottom: 2%;
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+.fa-email{
+    background:#3B5998;
+    color: white;
+    width: 3%; 
+    height: 20%; 
+    margin-right:0%; 
+    margin-bottom: 2%; 
+    margin-left: 0%; 
+    border: 2px solid black;
+}
+
+.responsive {
+  width: 100%;
+  height: auto; 
+  position: center; 
+  border: 3px solid black;
+}
+ h2 {
+    font-size: 10vw;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgba(104, 0 , 0) 0%, rgba(225, 255, 255, 0.5) 50%, 
+        rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 
+        60%, rgb(78, 99, 132) 61%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    animation: wave 2000ms ease alternate infinite;
+    transition: all 0.1s ease;
+    }
+@keyframes wave {
+0% {
+    background-position: 0 0;
+   }
+100% {
+    background-position: 50vw 10px;
+     }
+}
+  .example { 
+  width: 25% ; 
+  margin-left: 5px;   
+  position: absolute; 
+  top: 135.5%;
+  left: 65%;
+  font-size: 15px;
+}
+
+  
+  .row img { 
+width: 50%; 
+  }
+  .row {
+        display: table-cell;
+        height: 30%;
+        text-align: center;
+        width: 30%;
+        vertical-align: middle;
+  }
+img {
+    margin: 1em;
+    border-radius: 0px;
+    position: relative;
+    border: 2px solid black;
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-right: -10px;
+    border-radius: 5px;
+} 
+
+  .para {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 5px solid black; 
+    padding: 10px; 
+    border-color: white;
+    color: white;
+    font-size:100px; 
+    font-family: impact;
+}
+a.hoveffect:hover {
+  color: red;
+}
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .card {
+    width: 230px;
+    height: 300px;
+    border: 2px;
+    border-color: #AEADA3;
+    margin: 10px;
+    position: relative;
+    padding:1px;
+    float: left;
+  }
+  .card img {
+    width: 95%;
+    height: 75%;
+    object-fit: cover;
+  }
+
+  .card h3 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .card p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+  }
+
+.about {
+  position: absolute; 
+  margin-left:2%;
+  width: 25%;
+  height: 50%;
+}
+   .box {
+  border: 5px solid black;
+  padding: 20px;
+  background-color: #CCCCFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  flex-direction: column;
+  border-radius: 20px;
+  margin:1em;
+}
+
+.box h1 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit], input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .card{
+    width: 100%;
+    height: 33%;
+    object-fit: contain;
+  }
+
+  .example h2{
+      font-size: 20px;
+  }
+  .heading {
+      font-size: 37px;
+  }
+  input#date[type=text] {
+     transform: translate(-0%,-65%);
+  }
+  .about{
+      width: 150px;
+      height: 150px;
+  }
+  .example {
+  width: 50% ; 
+  font-size: 15px;
+  color: #000000;
+  margin-left: 5px;   
+  position: absolute; 
+  top: 75%;
+  left: 51%;
+  }
+ul {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 10px;
+}
+  .para {
+    font-size: 50px; 
+    font-family: impact;
+}
+}
+
+
+
+
+

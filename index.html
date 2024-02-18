@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="This is home page  designed to introduce website to the 
+              visiter which contains search bar and upcoming event date.">
+         <meta name="keywords" content="homepage, hotbeans, web development, search bar, upcoming event, social media icons">                       
+            <title>Home page</title>
+                  
+             <link rel="canonical" href="https://www.Home.com/main-version-of-the-page"/>
+             <link rel="stylesheet" href="style/style.css">
+             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                  
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+             <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+                  
+    </head>
+
+                 
+    
+    <body onload="document.getElementById('date').value = new Date().toLocaleString()">         
+ 
+            
+   <div class="header">
+      <header>
+         <a href="index.html"><image src="images/Logo 2.png" width="100px" height="100px"/></a>    
+           <div class="button-container">
+             <button class="button">Log In</button>
+             <button class="button">Create Account</button>
+           </div> 
+           <form>
+           <div for="date">
+             <input type="text" id="date" name="date"  >
+           </div>
+           </form>
+          <h1 title="HotBeans Home" class="heading" ><a href="index.html">HotBeans</a></h1> 
+      <div class="nav">
+         <ul>
+    <li><a href="index.html" class="active"><strong>Home</strong></a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="application.html">Application</a></li>
+    <li><a href="trainee.html">Trainee</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+          </ul> 
+         </div>
+    </header>
+    </div>  
+           
+        <div>
+          <img src="images/homepage.png" alt="Future" class="responsive"  width="1850" height="900"/> 
+        </div>     
+   
+     <div>
+    <form action="https://www.google.com/" method="get" style="background-color: #1c2a48; 
+          padding: 30px; display: flex; flex-direction: column; border: 6px solid whitesmoke; 
+          width: 60%; margin-left: 0.9%; margin-top: 0.1%;">
+
+    <label for="keyword" class="course-finder-label" style="color: white;">Course Finder</label>
+    <div style="display: flex; flex-direction: row;">
+            <input type="text" id="keyword" name="keyword" placeholder="Enter Keyword" 
+                   style="background-color: #f2f2f2; color: black; width: 100%;">
+            <input type="submit" value="SEARCH" style="background-color: #0078d7; color: white; margin-left: 5px;">
+    </div>
+    <label for="find-course-by" style="color: white; width: 100%;">Find course by:</label>
+    <select id="find-course-by" name="category" style="background-color: #f2f2f2; color: black; width: 100%;">
+        <option value="" selected>Select Option</option>
+        <option value="mystudentsite"href="https://w3school.com">My Student Site</option>
+        <option value="w3school">W3School</option>
+        <option value="udemy">Udemy</option>
+        <option value="kinsta">Kinsta</option>
+        <option value="freecodeacademy"> Free Code Academy</option>
+        <option value="ronstechhub">Rona Tech Hub</option>
+    </select>
+    </form>
+    </div> 
+     
+     <div class="example">        
+        <h2 title="Thank you" style=" margin-left: 20px; padding: 10px;text-align: Center;
+            line-height:40px; position: relative;">Next up Coming live:</h2>
+        <p style=" margin-left: 20px;padding: 10px;text-align: center;line-height: 15px;position: relative;">
+            <strong>About Web Development<br>
+            Friday 28th February 2050<br>
+            5:30pm - 8pm</strong></p>
+     </div>
+        
+   <div class="footer"> 
+       <footer style="margin-left: 20px;">
+    <h3> Author: Zakia Mehdi</h3>
+    <a href="https://outlook.com/"><h3> Email: 2301886@stockport.tcg.ac.uk</h3></a>
+    <a href="https://stockport.ac.uk/"><h3 style="text-align: right; margin-right: 20px;"> Stockport College</h3></a>
+    <h3 style="text-align: right; margin-right: 20px;"> copyright2024@</h3>
+    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://linkedin.com" class="fa fa-linkedin"></a>
+    <a href="https://youtube.com" class="fa fa-youtube"></a>
+    <a href="https://instagram.com" class="fa fa-instagram"></a>
+       </footer>
+      </div>
+ 
+    </body>
+    </html>

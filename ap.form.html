@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="This page is linked with Application page as the user click 
+              on the apply now - a appication form i created here will come up.">
+         <meta name="keywords" content="keywords, title, description, courses, web development, multiple, search bar"> 
+                  <title>Application form</title>
+         
+                   <link rel="canonical" href="https://www.ApplicationForm.com/">
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                      
+ 
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+    font-family:Wide Latin;
+    font-size: 50px; 
+    position:absolute; 
+    top: 2%; 
+    left:50%; 
+    transform: translate(-50%,0%);
+}
+
+input[type=text],input[type=date], input[type=file], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+h2 {
+text-align:center;
+font-size: 35px;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: brown;
+  border-colour: 2px solid black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit], input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footer{
+    grid-area: footer;
+    background-size: 200px;
+    background-color: #B9C7BE;
+    margin:0.1em;
+    margin-left: 5px;
+    margin-top: 18px;
+    margin-bottom: -10px;
+    position: relative;
+}
+.author{
+    text-align: left;
+    font-family: "londrina shadow", cursive;
+    color: blue;
+    padding: 1px 20px 1px 20px;
+}
+.email{
+    text-align: right;
+    font-family: "londrina shadow", cursive;
+    color: goldenrod;
+    padding: 1px 20px 1px 20px;
+}
+.college{
+    text-align: right;
+    font-family: "londrina shadow", cursive;
+    color: goldenrod;
+    padding: 1px 20px 1px 20px;
+}
+.fa{
+    padding:15px;
+    width: 1px;
+    text-align: left;
+    text-decoration: none;
+    margin: -15px 2px;
+    border-radius: 0%;
+    left: 20PX;
+    top:-20PX;   
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram{
+    background: #123688;
+    color: white;
+}
+.fa-email{
+    background:#3B5998;
+    color: white;
+}
+a.hoveffect:hover {
+  color: red;
+}
+</style>
+<body>
+
+    
+                        <a href="index.html"><image src="images/Logo 2.png" class="image-responsive"
+                                                style=" width:100px; height: 100px;"/></a>
+                                                
+          <h1 title="HotBeans application form" style="color:#002966;">HotBeans</h1>                                            
+
+    <div class="container">
+<h2> Application form</h2>
+
+  <form action="mailto:contact@yourdomain.com" method="POST">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Enter your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Enter your last name..">
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-25">
+      <label for="borthday">Date of  Birthday:</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="lname" name="birthday">
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-25">
+      <label for="yemail">Your Email:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="firstname" placeholder="Enter your email...">
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country:</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="#">Pakistan</option>
+        <option value="#">England</option>
+        <option value="#">Germany</option>
+        <option value="#">Turkey</option>
+      </select>
+    </div>
+  </div>
+  <p>Which type of developer your are?</p>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Frontend Web Developer</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Backend Web Developer</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Full Stack Web Developer</label>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Upload your CV here:</label>
+    </div>
+    <div class="col-75">
+      <input type="file" id="myfile" name="birthday">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Any Question Or Message:</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit"> 
+    <input type="reset" value="Reset">
+  </div>
+  </form>
+
+
+
+
+
+</div>
+              <div class="footer"> 
+       <footer style="margin-left: 20px;">
+    <h3> Author: Zakia Mehdi</h3>
+    <a href="https://outlook.office.com/"><h3> Email:2301886@stockport.tcg.ac.uk</h3></a>
+    <a href="https://stockport.ac.uk/"><h3 style="text-align: right; margin-right: 20px;"> Stockport College</h3></a>
+    <h3 style="text-align: right; margin-right: 20px;"> copyright2024@</h3>
+    <a href="https://twitter.com/" style="width: 3%; height: 20%; margin-right:0%; margin-bottom: 2%; margin-left: 0%; border: 2px solid black;" class="fa fa-twitter"></a>
+    <a href="https://linkedin.com" style="width: 3%; height: 20%; margin-right:0%; margin-bottom: 2%; margin-left: 0%; border: 2px solid black;" class="fa fa-linkedin"></a>
+    <a href="https://youtube.com" style="width: 3%; height: 20%; margin-right:0%; margin-bottom: 2%; margin-left: 0%; border: 2px solid black;" class="fa fa-youtube"></a>
+    <a href="https://instagram.com" style="width: 3%; height: 20%; margin-right:0%; margin-bottom: 2%; margin-left: 0%; border: 2px solid black;" class="fa fa-instagram"></a>
+       </footer>
+      </div>
+
+</body>
+</html>
+
